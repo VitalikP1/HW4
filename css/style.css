@@ -1,0 +1,154 @@
+/* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
+.wrapper {
+  width: 1110px;
+  height: 1800px;
+  margin: 0 auto;
+  font-size: 0;
+}
+/* я задал wrapper в body потому и приходится
+обнулять margin везде, потому, что он не
+работает в header и main автоматически*/
+
+.menu-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  font-weight: 300;
+  color: #555252;
+  padding-top: 35px;
+  /* margin: 0 auto; */
+}
+
+.menu-logo::first-letter {
+  font-family: "Roboto 900", sans-serif;
+  font-weight: 900;
+  color: #1abc9c;
+  font-weight: bold;
+}
+
+.menu-btn {
+  list-style: none;
+  font-family: "Open Sans 700", sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  float: right;
+  text-decoration: none;
+  padding-top: 45px;
+  /* margin: 0 auto; */
+  vertical-align: top;
+}
+
+.menu-style {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-style:hover {
+  color: #1abc9c
+}
+
+.btn {
+  display: inline-block;
+}
+
+.btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Не пойму почему добавило 40px к падингу и почему везде
+не слушается wrapper и добавляет margin сколько хочет и
+так же иногда padding */
+/* .ul-setings {
+  margin: 0;
+  padding-left: 0;
+} */
+
+.headline {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 48px;
+  /* margin: 0 auto; */
+  color: #515151;
+  padding-bottom: 30px;
+}
+
+.line {
+    background: #1abc9c;
+    display: block;
+    width: 164px;
+    height: 7px;
+    text-align: center;
+    margin: 0 auto 92px;
+}
+
+.content {
+  width: 255px;
+  height: 282px;
+  margin: 0 30px 30px 0;
+  font-size: 1rem;
+  background: #e9f0fd;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content:nth-child(4n+4) {
+  margin-right: 0;
+}
+
+.content:nth-child(n+5) {
+  margin-bottom: 0;
+}
+
+
+.box {
+  width: 350px;
+  height: 540px;
+  display: inline-block;
+}
+
+.box:not(:last-child) {
+  margin-right: 30px;
+}
+
+.headline-news {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #555252;
+  padding: 14px 0 14px;
+}
+
+.line-news {
+  background: #1abc9c;
+    display: block;
+    width: 136px;
+    height: 3px;
+}
+
+.text-news {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #555252;
+  padding: 27px 0 14px;
+}
+
+.btn-news {
+  width: 160px;
+  height: 50px;
+  background: #1abc9c;
+  color: #fff;
+  padding: 0;
+  border: 0;
+}
