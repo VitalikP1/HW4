@@ -6,7 +6,7 @@
 *::before,
 *::after {
   box-sizing: inherit;
-} */
+}  так и не понял зачем это? */
 
 .wrapper {
   width: 1110px;
@@ -14,9 +14,6 @@
   margin: 0 auto;
   font-size: 0;
 }
-/* я задал wrapper в body потому и приходится
-обнулять margin везде, потому, что он не
-работает в header и main автоматически*/
 
 .menu-logo {
   font-family: "Roboto", sans-serif;
@@ -44,7 +41,6 @@
   float: right;
   text-decoration: none;
   padding-top: 45px;
-  /* margin: 0 auto; */
   vertical-align: top;
 }
 
@@ -64,14 +60,6 @@
 .btn:not(:last-child) {
   margin-right: 30px;
 }
-
-/* Не пойму почему добавило 40px к падингу и почему везде
-не слушается wrapper и добавляет margin сколько хочет и
-так же иногда padding */
-/* .ul-setings {
-  margin: 0;
-  padding-left: 0;
-} */
 
 .headline {
   font-family: "Roboto", sans-serif;
@@ -99,8 +87,14 @@
   margin: 0 30px 30px 0;
   font-size: 1rem;
   background: #e9f0fd;
-  display: inline-block;
+  float: left;
   vertical-align: top;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .content:nth-child(4n+4) {
@@ -115,7 +109,7 @@
 .box {
   width: 350px;
   height: 540px;
-  display: inline-block;
+  float: left;
 }
 
 .box:not(:last-child) {
