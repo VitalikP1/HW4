@@ -79,7 +79,8 @@ img {
   text-transform: uppercase;
 }
 
-.menu-light:hover, .menu-light:focus {
+.menu-light:hover,
+.menu-light:focus {
   color: #1abc9c;
 }
 
@@ -120,15 +121,15 @@ img {
   float: left;
 }
 
-.products-content li:nth-child(4n+4) {
+.products-content li:nth-child(4n + 4) {
   margin-right: 0;
 }
 
-.products-content li:nth-child(n+5) {
+.products-content li:nth-child(n + 5) {
   margin-bottom: 0;
 }
 
-.products-picture img{
+.products-picture img {
   widows: 255px;
   height: 282px;
 }
@@ -168,7 +169,7 @@ img {
 
 /* NEWS */
 
-.news-content li{
+.news-content li {
   width: 350px;
   float: left;
 }
