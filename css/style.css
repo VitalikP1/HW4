@@ -95,8 +95,8 @@ img {
   font-size: 48px;
   line-height: 32px;
   color: #515151;
-  margin-bottom: 40px;
   text-transform: uppercase;
+  padding-bottom: 92px;
 }
 
 .headline::after {
@@ -104,12 +104,12 @@ img {
   display: block;
   width: 164px;
   height: 7px;
-  margin: 30px auto 92px;
+  margin: 30px auto 0;
   background-color: #1abc9c;
 }
 
 .products-content {
-  margin-bottom: 112px;
+  padding-bottom: 112px;
   list-style: none;
 }
 
@@ -179,7 +179,7 @@ img {
 }
 
 .news-content img {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   width: 350px;
   height: 260px;
 }
@@ -190,7 +190,7 @@ img {
   line-height: 26px;
   font-weight: 600;
   color: #555252;
-  margin-bottom: 11px;
+  padding-bottom: 30px;
 }
 
 .headline-news::after {
@@ -198,7 +198,6 @@ img {
   display: block;
   width: 136px;
   height: 3px;
-  margin-bottom: 26px;
   background-color: #1abc9c;
   margin-top: 12px;
 }
@@ -207,7 +206,7 @@ img {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #555252;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .news-button {
